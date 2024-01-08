@@ -1,0 +1,20 @@
+.navbar{
+    border-bottom: 2px solid #f3b200;
+}
+.nav_text{
+    font-style: italic;
+    text-decoration: none;
+    color: gray;
+}
+.text{
+    margin: 5px;
+    padding: 5px;
+
+}
+.search-form input {
+    height: 40px;
+    width: 10%;
+    font-size: 25px;
+    box-sizing: border-box;
+    border: 5px solid #e63946;
+}
