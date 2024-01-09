@@ -1,20 +1,59 @@
-.navbar{
-    border-bottom: 2px solid #f3b200;
+body {
+    background-color: white;
 }
-.nav_text{
-    font-style: italic;
-    text-decoration: none;
-    color: gray;
-}
-.text{
-    margin: 5px;
-    padding: 5px;
 
+.obr {
+    color: black;
 }
-.search-form input {
-    height: 40px;
-    width: 10%;
-    font-size: 25px;
-    box-sizing: border-box;
-    border: 5px solid #e63946;
+
+header,footer {
+    background-color: burlywood;
 }
+
+.nature{
+    height: 200px;
+    width: 200px;
+    margin-top: 0px;
+}
+
+footer {
+    color: white;
+}
+
+.btn {
+    background-color: #8B4513;
+    color: white;
+}
+
+
+
+.field {
+    border-radius: 10px;
+    border-color: brown;
+}
+
+.btncolor {
+    border-radius: 10px;
+    border-color: brown;
+}
+
+.nav-link {
+    color: white;
+    font-size: 20px;
+}
+
+h1 {
+    color: white;
+}
+
+th, td, tbody {
+    border: 1px solid black;
+    
+}
+.choice {
+    border-radius: 10px;
+    border-color: brown;
+}
+
+
+
