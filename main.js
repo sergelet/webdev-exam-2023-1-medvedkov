@@ -1,9 +1,8 @@
 'use strict';
 
 const baseURL = "http://exam-2023-1-api.std-900.ist.mospolytech.ru/api/routes";
-const api_key = "26a75d98-76bf-48a8-9acd-e75e991c56cb";
-const url = new URL(baseURL);
-url.searchParams.append('api_key', api_key);
+const api_key = "b972478d-9fb3-4651-9efc-4e96ffc84c43";
+
 
 const paging = {
    currentPage: 1,
@@ -12,8 +11,10 @@ const paging = {
 };
 
 async function fetchData() {
+   const url = new URL(baseURL);
+   url.searchParams.append('api_key', api_key);
    try {
-      const response = await fetch(url);
+      const response = await fetch(url, { method: 'GET' });
       if (response.ok) {
          const data = await response.json();
          displayData(data);
